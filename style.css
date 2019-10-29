@@ -1,0 +1,22 @@
+#player1,#player2 {
+    display: inline;
+}
+#info,#new-reset,#winner{
+    display: none;
+}
+
+#game-board {
+    display: none;
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+    border: 1px solid;
+}
+
+.kochak{
+    width: 150px;
+    height: 150px;
+    font-size: 40px;
+    background-color: beige;
+    float: left;
+}
