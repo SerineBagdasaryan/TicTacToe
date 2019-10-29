@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+ background-color: dodgerblue;
+    font-size: 70px;
+    border: 2px solid white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: skyblue;
+    line-height: 1.42;
+    border-radius: 10px 10px 10px 10px;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
