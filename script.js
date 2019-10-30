@@ -1,15 +1,32 @@
 let size = prompt("Enter board size", 5);
 if(size > 100){
     alert("Enter a number less than 100");
-}else {
+}else if(size<=3){
+    alert("enter big number");
+}
+else {
     window.onload = function () {
+        let turn;
+      document.getElementById("choose").addEventListener('click',function () {
+          if($("input[type='radio'].radioBtnClass").is(':checked')) {
+              turn = $("input[type='radio'].radioBtnClass:checked").val();
+              document.getElementById('tictactoe').style.display = "block";
+          }
+           if(!$("input[type='radio'].radioBtnClass").is(':checked')) {
+             alert('choose one of  players');
+               document.getElementById('tictactoe').style.display = "none";
+
+          }
+
+
+        })
+
         let squares = [],
             empty = "&nbsp;",
             score,
             moves,
-            turn = "X",
             newGame = function () {
-                turn = "X";
+            turn,
                 score = {
                     "X": 0,
                     "O": 0

@@ -15,3 +15,14 @@ h2{
     color: blue;
     text-align: center;
 }
+#tictactoe{
+    display: none;
+}
+.players{
+    display: inline;
+
+}
+
+button:disabled {
+
+}
