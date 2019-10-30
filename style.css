@@ -18,11 +18,8 @@ h2{
 #tictactoe{
     display: none;
 }
-.players{
-    display: inline;
-
-}
-
-button:disabled {
+.play{
+    display: flex;
+    flex-direction: row;
 
 }

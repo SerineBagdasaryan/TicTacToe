@@ -11,6 +11,7 @@ else {
           if($("input[type='radio'].radioBtnClass").is(':checked')) {
               turn = $("input[type='radio'].radioBtnClass:checked").val();
               document.getElementById('tictactoe').style.display = "block";
+              document.getElementById('players').style.display = "none";
           }
            if(!$("input[type='radio'].radioBtnClass").is(':checked')) {
              alert('choose one of  players');
